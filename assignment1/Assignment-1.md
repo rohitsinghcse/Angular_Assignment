@@ -42,11 +42,10 @@ Here is what you will need to do to complete the assignment:
   * Option 2: Create the HTML/CSS yourself. Make sure to name the HTML file `index.html`. The only requirement is that your HTML have a textbox, a button, and a region where you will output the message. The rest is up to you.
 5. Import AngularJS into your project and place a `<script>` tag right before the `</body>` tag.
 6. Declare `ng-app` either on the `html` or the `body` element. Name your app `LunchCheck`.
-
-====
-
 7. Create `app.js` in your project and declare the an Angular module to match your `ng-app` declaration.
 8. Go back to `index.html` and declare a controller for some portion of your page that contains the textbox, the button, and the message placeholder.
+
+==done till here ========================
 9. Annotate the textbox, the button, and the placeholder such that you can hook in behavior to those elements from your controller.
 10. Go back to `app.js`. Declare and define a `LunchCheckController`. Properly inject `$scope` into the controller using the `$inject` property (shown how in video lecture) to make sure to protect your code from minification.
 11. Create and implement properties and method(s) in order to implement the functionality outlined in General Idea section above.
